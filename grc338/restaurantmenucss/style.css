@@ -1,0 +1,45 @@
+/*CSS DOCUMENT*/ 
+
+html {
+} 
+h1 {
+    color:rgb(25,25,112);
+    font-family: sans-serif;
+    content:2em 0em 1em .5em;
+    text-transform: full-width; 
+    
+}
+h2 {
+    color:rgb(70,130,180);
+    font-family: sans-serif;
+      margin:0em 0em 1em 0em;
+    
+}
+h3 {
+    font-family: sans-serif;
+    margin:0em 0em 0em 0em;
+    background-color: rgb(217,229,240);
+  
+}
+h4 {
+    color:rgb(25,25,112);
+    font-family: sans-serif;
+    margin:0em 0em 0em 2em;
+    font-size: 1.25em; 
+    
+}
+p{
+    margin:.5em 0em 0em 2.5em;
+    font-style: italic
+    
+    
+}
+.price{
+    margin:1em 0em 0em 2.5em; 
+}
+ul{
+    list-style: none;
+    font-family: sans-serif;
+}
+    
+    
