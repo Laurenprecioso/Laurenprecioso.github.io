@@ -1,0 +1,122 @@
+/*CSS DOCUMENT*/
+
+img {
+    width: 100%;
+}
+body {
+    margin: 0em 1em 0em 1em;
+    color: rgb(40,40,40);
+}
+header{
+    margin: 0em 0em 0em 0em;
+}
+nav ul {
+    padding: 0em 0em 1em 0em;
+}
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    font-family: new-order,sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 0.2em;
+}
+nav ul li a{
+    color: rgb(0,0,0);
+    text-decoration: none;
+    padding-bottom: 1em;
+    margin: 0em 1em 0em 1em;
+}
+nav ul li a:hover {
+    color: rgb(154,192,168);
+    margin: 0em 1em 0em 1em;
+}
+h1 {
+    margin: 0em 1em 0em 1em;
+}
+h2 {
+    color: rgb(73,185,114);
+    font-family: new-order,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+h3 {
+    font-family: new-order,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+h4 {
+    font-family: new-order,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: new-order,sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    font-style: oblique;
+    margin: 0em 0em 0em 0em;
+    padding-bottom: .5em;
+}
+ul{
+    list-style: none;
+    margin-bottom: 0em;
+    padding: 0em 0em 1em 0em;
+
+}
+li{
+    margin:0em 0em 0em 0em;
+}
+footer {
+    background-color: rgb(73,185,114);
+    padding: 1em 1em 1em 1em; 
+}
+figure {
+    margin: 0em 0em 0em 0em;
+}
+    
+
+@media screen and (min-width: 40em){
+    
+header{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    }
+
+    figure{
+    display:grid;
+    grid-template-columns: 10fr 0fr;
+    }
+
+div.location {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+    
+    }
+div.menu{
+    display:grid;
+    margin: 0em 5em 0em 5em;
+    }
+
+    
+div.about {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+    }
+
+div.home {
+    display:grid;
+    margin: 0em 5em 0em 5em;
+    }
+
+div.barimage{
+    margin: 3em 3em 3em 3em; 
+    
+    }
+}
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
